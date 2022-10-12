@@ -5,6 +5,7 @@ export default function TestPage() {
 	return (
 		<>
 			<TestComponents />
+			<br />
 			<Link to="Test1">테스트1</Link> <Link to="Test2">테스트2</Link>{" "}
 			<Link to="Test3">테스트3</Link>
 			<Outlet />
